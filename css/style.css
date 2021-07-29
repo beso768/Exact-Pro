@@ -197,6 +197,12 @@ header{
 .what-we-do img{
     width: 32%;
 }
+.picture1wrapper{
+    width: 50%;
+}
+.picture1{
+    background-image: url(../images/caseBlue.svg);
+}
 .what-we-do h4{
     margin-left: 20px;
     width: 80px;

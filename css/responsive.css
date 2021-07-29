@@ -1,0 +1,144 @@
+@media (max-width: 1230px){
+    .box-container{
+        width: auto;
+    }
+    /* what-we-do  */
+    .what-we-do ul{
+        flex-wrap: wrap;
+    }
+    .what-we-do li {
+        margin: 0 2% 2% 0;
+        width: 43%;
+        max-width: none;
+    }
+    i{
+        cursor: pointer;
+    }
+
+    /* footer  */
+    .upper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-logo , .contact-us , .links{
+        width: 100%;
+    }
+    .footer-logo p{
+        text-align: center;
+    }
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .follow-us h3{
+        text-align: center;
+    }
+    footer h3:after{
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+}
+@media (max-width: 992px){
+    /* header  */
+    .menu-button{
+        margin-right: 0 !important;
+    }
+    .header-container{
+        padding-right: 0 !important;
+    }
+    .slogan{
+        display: none;
+    }
+    .about-section a {
+        padding: 0 15px;
+    }
+
+    /* experience  */
+    .experience-description{
+        width: 100%;
+    }
+    .title-container h2{
+        margin: 0px 0 10px 0;
+    }
+    .our-experience-section {
+        padding: 2%;
+    }
+    h2, h3 {
+        padding-bottom: 2%;
+    }
+    /* footer  */
+    .contact-us div {
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 768px){
+    /* header  */
+    .header-navbar span{
+        display: none;
+    }
+    /* genereal  */
+    h1, h2, h3, h4{
+        text-align: center;
+    }
+    h2:after{
+        left: 50%;
+        transform: translate(-50%);
+    }
+    h2, h3 {
+        padding-bottom: 20px;
+    }
+    /* our-mission  */
+    .description-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .description-container div{
+        width: 100%;
+    }
+    .about-section img, .description-text {
+        max-width: unset;
+    }
+    /* about-section */
+    .about-section nav{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    /* general  */
+    h2, h3 {
+        font-size: 30px;
+    }
+    p{
+        margin-bottom: 10px;
+        line-height: 20px !important;
+    }
+    /* header  */
+    .header-navbar li{
+        display: none;
+    }
+    .menu-button{
+        display: block !important;
+    }
+    #burger-button{
+        width: 60px;
+    }
+    #burger-button p{
+        display: none;
+    }
+
+    /* sections  */
+    .what-we-do li{
+        margin: 0 0px 3% 0;
+        width: 100%;
+        font-size: 5vw;
+    }
+    .our-experience-section {
+        background-position: 60%;
+    }
+    /* footer  */
+    .below p{
+        width: 100%;
+    }
+}
